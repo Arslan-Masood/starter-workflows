@@ -20,7 +20,6 @@ jobs:
           # Branch to merge from upstream (defaults to downstream branch)
           upstream_branch: main
           # Branch to merge into downstream
-          downstream_repo: "https://github.com/aidd-msca/ToxBERT.git"
           downstream_branch: main
           # GitHub Bot token
           token: ${{ secrets.GITHUB_TOKEN }}
